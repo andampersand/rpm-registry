@@ -1,0 +1,16 @@
+{
+    "name": "foo",
+    "description": "foo is a fake rpm package for testing purposes",
+    "version": "1.0",
+    "required_files": [
+      {
+        "foreign": false,
+        "name": "installer.ps1"
+      },
+      {
+        "foreign": false,
+        "name": "foo~.ps1"
+      }
+    ],
+    "installer": "installer.ps1"
+  }
