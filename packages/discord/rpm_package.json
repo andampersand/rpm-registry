@@ -12,5 +12,6 @@
             "foreign": true,
             "uri": "https://dl.discordapp.net/apps/win/0.0.307/DiscordSetup.exe"
         }
-    ]
+    ],
+    "installer": "installer.ps1"
 }
