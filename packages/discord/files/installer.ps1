@@ -1,1 +1,0 @@
-Invoke-Item -Path "DiscordSetup.exe"

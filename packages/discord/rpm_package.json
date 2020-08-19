@@ -4,14 +4,10 @@
     "version": "latest",
     "required_files": [
         {
-            "name": "installer.ps1",
-            "foreign": false
-        },
-        {
             "name": "DiscordSetup.exe",
             "foreign": true,
             "uri": "https://dl.discordapp.net/apps/win/0.0.307/DiscordSetup.exe"
         }
     ],
-    "installer": "installer.ps1"
+    "installer": "DiscordSetup.exe"
 }
