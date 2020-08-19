@@ -1,0 +1,13 @@
+{
+    "name": "python",
+    "description": "Python is an interpreted, high-level, general-purpose programming language.",
+    "version": "3.8.5",
+    "required_files": [
+        {
+            "foreign": true,
+            "name": "python.exe",
+            "uri": "https://www.python.org/ftp/python/3.8.5/python-3.8.5.exe"
+        }
+    ],
+    "installer": "python.exe"
+}
