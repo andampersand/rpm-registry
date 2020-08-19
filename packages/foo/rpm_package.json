@@ -9,7 +9,7 @@
       },
       {
         "foreign": false,
-        "name": "foo~.ps1"
+        "name": "foo.ps1"
       }
     ],
     "installer": "installer.ps1"
