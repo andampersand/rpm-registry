@@ -2,6 +2,15 @@
   "name": "rpm",
   "description": "RPM is a windows package manager",
   "version": "1.0",
-  "required_files": ["installer.ps1", "rpm.ps1"],
+  "required_files": [
+    {
+      "foreign": false,
+      "name": "installer.ps1"
+    },
+    {
+      "foreign": false,
+      "name": "rpm.ps1"
+    }
+  ],
   "installer": "installer.ps1"
 }
