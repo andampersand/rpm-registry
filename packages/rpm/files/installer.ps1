@@ -1,1 +1,1 @@
-echo "For now there's nothing."
+Copy-Item -Path rpm.ps1 -Destination ../../
