@@ -2,6 +2,8 @@ $command = $args[0]
 
 $registry = "https://raw.githubusercontent.com/andampersand/rpm-registry/master/"
 
+$version = "1.0.1"
+
 if($command -eq "install"){
     $package = $args[1]
     echo "Installing package $($package) from rpm..."
@@ -42,6 +44,8 @@ if($command -eq "install"){
     } Catch {
         echo "Something went wrong while connecting to the RPM registry. Check your internet connection and the registry uri."
     }
-}else{
+}elseif ($command -eq $version){
+    echo "RPM version: $($version)"
+}else {
     echo "Unknown command '$($command)'"
 }
