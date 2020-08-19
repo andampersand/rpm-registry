@@ -1,6 +1,6 @@
 {
   "name": "rpm",
-  "description": "RPM is a windows package manager",
+  "description": "RPM is a windows package manager written in Powershell",
   "version": "1.0",
   "required_files": [
     {
