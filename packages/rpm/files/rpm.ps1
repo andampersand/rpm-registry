@@ -44,7 +44,7 @@ if($command -eq "install"){
     } Catch {
         echo "Something went wrong while connecting to the RPM registry. Check your internet connection and the registry uri."
     }
-}elseif ($command -eq $version){
+}elseif ($command -eq "version"){
     echo "RPM version: $($version)"
 }else {
     echo "Unknown command '$($command)'"
